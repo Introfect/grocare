@@ -45,6 +45,7 @@ const nextPage=()=>
          {videoData?videoData.data.posts.map((data)=>{
            return(
             <VideoComp
+            className='anchal'
             postId={data.postId}
             creatorName={data.creator.name}
             creatorId={data.creator.Id}
